@@ -23,7 +23,8 @@ export class CartComponent {
     // Process checkout data here
     this.items = this.cartService.clearCart();
     window.alert('Your order has been submitted ' + this.checkoutForm.value);
-    console.warn("wawa");
+    console.warn('wawa');
     this.checkoutForm.reset();
+    
   }
 }
